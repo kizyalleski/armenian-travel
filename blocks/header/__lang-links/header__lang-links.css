@@ -4,8 +4,15 @@
   display: flex;
   gap: 18px;
   padding: 0;
-  align-self: flex-end;
-  margin-bottom: 4px;
+  align-self: center;
+  background-color: #2A2C2F;
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.25s linear;
+}
+
+.header__lang-links:hover {
+  opacity: 0.5;
 }
 
 @media (max-width: 320px) {
